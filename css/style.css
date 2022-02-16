@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Lobster&family=Vujahday+Script&display=swap');
+
+
+body{
+	overflow-x: hidden;
+}
+/*Carousel*/
+.media-pic{
+	height: 600px;
+}
+
+h5{
+	font-size: 100px;
+	font-family: Lobster;
+	color:  black;
+}
+
+.cap-text{
+	font-family: Lobster;
+	font-size: 30px;
+	color: black;
+}
+
+.carousel-caption{
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+}
+
+@media(max-width:991px){
+	h5{
+		font-size: 30px;
+		margin: auto;
+	}
+	.cap-text{
+			display: none;
+	}
+	.carousel-caption{
+       width: 50%;
+       height: 100px;
+       margin: auto;
+	}
+	 .media-pic{
+	 	height: 250px;
+	 }
+}
+
+/*End Carousel*/
+
+h1{
+	font-family: Lobster;
+}
+
+/*  top sale template   */
+#top-sale .owl-carousel .item .product a {
+	overflow: hidden;
+  }
+  #top-sale .owl-carousel .item .product img {
+	transition: transform 0.5s ease;
+  }
+  #top-sale .owl-carousel .item .product img:hover {
+	transform: scale(1.1);
+  }
+  #top-sale .owl-carousel .owl-nav button {
+	position: absolute;
+	top: 30%;
+	outline: none;
+  }
+  #top-sale .owl-carousel .owl-nav button.owl-prev {
+	left: 0;
+  }
+  #top-sale .owl-carousel .owl-nav button.owl-prev span,
+  #top-sale .owl-carousel .owl-nav button.owl-next span {
+	font-size: 35px;
+	color: #003859;
+	padding: 0 1rem;
+  }
+  #top-sale .owl-carousel .owl-nav button.owl-prev span {
+	margin-left: -4rem;
+  }
+  #top-sale .owl-carousel .owl-nav button.owl-next {
+	right: 0;
+  }
+  #top-sale .owl-carousel .owl-nav button.owl-next span {
+	margin-right: -4rem;
+  }
+  /* end  top sale template   */
+
+  /*in stock */
+  #special-price .grid .grid-item {
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+	border: 2px solid green;
+}
+  /*end in stock */
+  /*admin login page*/
+  .admin-login{
+	  width: 50%;
+ }
+
+ .login-form{
+	
+   /* border: 1px solid black;*/
+	border-radius: 10px;
+	padding: 20px;
+	
+	background-repeat: no-repeat;
+   background-size: cover;
+   box-shadow: 2px 2px 2px 2px silver;
+ }
+
+ @media(max-width:991px) {
+	 .admin-login{
+		 width: 100%;
+	 }
+ }
+  /*end admin login page*/
+
+  /*footer*/
+
+  /*footer*/
+  
