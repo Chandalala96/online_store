@@ -1,3 +1,4 @@
+<?php ?>
 <style> 
 @media(max-width: 991px) {
    .trap{
