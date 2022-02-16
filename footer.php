@@ -1,3 +1,4 @@
+<?php ?>
 </main>
 <!--Footer---->
 <footer class="mt-5" id="contact"> 
